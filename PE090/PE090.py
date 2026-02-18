@@ -26,3 +26,4 @@ for die1 in validdice:
                                     if (die1 & 2 > 0 and die2 & 256> 0) or (die2 & 2 > 0 and die1 & 256 > 0):
                                         configurations += 1
 print(configurations//2) #Accounts for symmetry.
+
